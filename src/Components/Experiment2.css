@@ -1,0 +1,301 @@
+/* =========================================================
+   MEDITERRANEAN LIVING THEME
+   Terracotta • Linen • Marigold • Coastal Water • Wild Olive
+   ========================================================= */
+
+
+/* ===== Global ===== */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2e6d7;
+    color: #26352f;
+}
+
+
+/* ===== Header ===== */
+
+.container:first-of-type {
+    width: 100%;
+    padding: 22px 0;
+    text-align: center;
+
+    background: linear-gradient(135deg,
+            #1f3a4d,
+            #315366);
+
+    border-bottom: 2px solid #6f7d5a;
+
+    box-shadow:
+        0 4px 14px rgba(31, 58, 77, 0.18);
+}
+
+.container:first-of-type h1 {
+    margin: 0;
+    font-family: Corbel, sans-serif;
+    font-size: 2.7rem;
+    color: #f2e6d7;
+    letter-spacing: 1px;
+}
+
+
+/* ===== Main Content ===== */
+
+.content {
+    padding: 40px 60px;
+}
+
+.content>p {
+    text-align: center;
+    color: #6b6258;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+
+
+/* ===== Section Titles ===== */
+
+.content h2 {
+    position: relative;
+    text-align: center;
+
+    color: #1f3a4d;
+
+    font-family: Corbel, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+
+    margin: 50px 0 30px;
+    padding-bottom: 12px;
+
+    border: none;
+    letter-spacing: 0.5px;
+}
+
+.content h2::after {
+    content: "";
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    transform: translateX(-50%);
+
+    width: 90px;
+    height: 3px;
+
+    background: linear-gradient(90deg,
+            #6f7d5a,
+            #c86a50);
+
+    border-radius: 5px;
+}
+
+
+/* ===== Bootstrap Cards ===== */
+
+.custom-card {
+    background: linear-gradient(145deg,
+            #fff9f1,
+            #e8d8c5);
+
+    border: 1px solid rgba(111, 125, 90, 0.35);
+
+    color: #26352f;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 6px 15px rgba(31, 58, 77, 0.12);
+
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #c86a50;
+
+    box-shadow:
+        0 12px 24px rgba(31, 58, 77, 0.18);
+}
+
+.custom-card .card-title {
+    color: #c86a50;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.custom-card .card-text {
+    color: #5f5a52;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+
+/* ===== Grid Boxes ===== */
+
+.grid-box {
+    background: linear-gradient(145deg,
+            #fff9f1,
+            #e8d8c5);
+
+    border: 1px solid rgba(111, 125, 90, 0.35);
+
+    border-radius: 12px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    color: #1f3a4d;
+
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+
+    box-shadow:
+        0 5px 14px rgba(31, 58, 77, 0.10);
+}
+
+.grid-box:hover {
+    transform: translateY(-5px);
+
+    border-color: #6db7b3;
+
+    box-shadow:
+        0 10px 20px rgba(31, 58, 77, 0.15);
+}
+
+
+/* ===== Buttons ===== */
+
+.btn-success {
+    background-color: #c86a50;
+    border-color: #c86a50;
+    color: #fff9f1;
+}
+
+.btn-success:hover {
+    background-color: #a95640;
+    border-color: #a95640;
+    color: #fff9f1;
+}
+
+
+/* ===== Outline Light Button ===== */
+
+.btn-outline-light {
+    color: #1f3a4d;
+    border-color: #1f3a4d;
+}
+
+.btn-outline-light:hover {
+    background-color: #e7b64a;
+    border-color: #e7b64a;
+    color: #1f3a4d;
+}
+
+
+/* ===== Alert ===== */
+
+.alert-success {
+    background: #e5e0d0;
+    border: 1px solid rgba(111, 125, 90, 0.40);
+    color: #4f554d;
+}
+
+.alert-success strong {
+    color: #6f7d5a;
+}
+
+
+/* ===== Badges ===== */
+
+.badge {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+}
+
+
+/* Mediterranean badge colors */
+
+.badge.bg-success {
+    background-color: #6f7d5a !important;
+}
+
+.badge.bg-primary {
+    background-color: #6db7b3 !important;
+}
+
+.badge.bg-warning {
+    background-color: #e7b64a !important;
+    color: #1f3a4d !important;
+}
+
+.badge.bg-danger {
+    background-color: #c86a50 !important;
+}
+
+
+/* ===== Links ===== */
+
+.content a {
+    color: #c86a50;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.content a:hover {
+    color: #1f3a4d;
+    text-decoration: underline;
+}
+
+
+/* ===== Selection ===== */
+
+::selection {
+    background: #e7b64a;
+    color: #1f3a4d;
+}
+
+
+/* ===== Scrollbar ===== */
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e8d8c5;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6f7d5a;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c86a50;
+}
+
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+
+    .content {
+        padding: 25px;
+    }
+
+    .container:first-of-type h1 {
+        font-size: 2rem;
+    }
+
+    .content h2 {
+        font-size: 1.6rem;
+    }
+}

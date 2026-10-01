@@ -1,0 +1,54 @@
+.exp4 .profile-grid {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.exp4 .profile-card {
+    background: linear-gradient(145deg,
+            #1F3A4D,
+            #29495B);
+
+    border: 1px solid rgba(242, 230, 215, 0.18);
+    border-left: 4px solid #C86A50;
+
+    border-radius: 14px;
+    padding: 25px;
+    text-align: left;
+
+    box-shadow: 0 8px 20px rgba(31, 58, 77, 0.25);
+
+    transition: all 0.3s ease;
+}
+
+.exp4 .profile-card:hover {
+    transform: translateY(-5px);
+
+    border-left-color: #E7B64A;
+
+    box-shadow:
+        0 12px 28px rgba(31, 58, 77, 0.35);
+}
+
+.exp4 .profile-card h3 {
+    color: #E7B64A;
+    margin-bottom: 12px;
+}
+
+.exp4 .profile-card p {
+    color: #F2E6D7;
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.exp4 .profile-card strong {
+    color: #6DB7B3;
+}
+
+@media (max-width: 800px) {
+    .exp4 .profile-grid {
+        grid-template-columns: 1fr;
+    }
+}

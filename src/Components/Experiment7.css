@@ -1,0 +1,70 @@
+.exp7 .list-card {
+    max-width: 700px;
+}
+
+.exp7 ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.exp7 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(145deg,
+            #1F3A4D,
+            #29495B);
+
+    border: 1px solid rgba(242, 230, 215, 0.18);
+    border-left: 4px solid #C86A50;
+
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+
+    color: #F2E6D7;
+
+    transition: all 0.3s ease;
+}
+
+.exp7 li:hover {
+    transform: translateX(4px);
+    border-left-color: #E7B64A;
+    box-shadow: 0 6px 16px rgba(31, 58, 77, 0.25);
+}
+
+.exp7 li small {
+    color: #6DB7B3;
+}
+
+.add-item-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.add-item-container input {
+    padding: 10px;
+
+    background: #F2E6D7;
+    color: #1F3A4D;
+
+    border: 1px solid #6DB7B3;
+    border-radius: 6px;
+
+    font-size: 16px;
+    flex: 1;
+
+    outline: none;
+}
+
+.add-item-container input:focus {
+    border-color: #C86A50;
+    box-shadow: 0 0 0 3px rgba(200, 106, 80, 0.15);
+}
+
+.add-item-container input::placeholder {
+    color: #6F7D5A;
+}

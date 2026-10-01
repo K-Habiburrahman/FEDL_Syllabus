@@ -1,0 +1,278 @@
+:root {
+    --terracotta: #C86A50;
+    --linen: #F2E6D7;
+    --marigold: #E7B64A;
+    --coastal-water: #6DB7B3;
+    --wild-olive: #6F7D5A;
+    --aegean-night: #1F3A4D;
+}
+
+/* =========================
+   Header
+   ========================= */
+
+.header {
+    width: 100%;
+    padding: 24px 20px 18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1F3A4D 0%,
+            #29495B 55%,
+            #1F3A4D 100%
+        );
+
+    border-bottom: 1px solid rgba(242, 230, 215, 0.15);
+
+    box-shadow:
+        0 8px 25px rgba(31, 58, 77, 0.25);
+
+    box-sizing: border-box;
+}
+
+/* =========================
+   Header Title
+   ========================= */
+
+.header h1 {
+    margin: 0 0 20px;
+
+    text-align: center;
+
+    color: #E7B64A;
+
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+
+    text-shadow:
+        0 2px 8px rgba(231, 182, 74, 0.25);
+}
+
+/* =========================
+   Navigation
+   ========================= */
+
+.experiment-nav {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* =========================
+   Navigation Tabs
+   ========================= */
+
+.nav-link {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 9px 13px;
+
+    color: #F2E6D7;
+
+    text-decoration: none;
+
+    background: rgba(242, 230, 215, 0.06);
+
+    border: 1px solid rgba(109, 183, 179, 0.35);
+
+    border-radius: 9px;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    transition:
+        background 0.25s ease,
+        border-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+/* =========================
+   Tab Number
+   ========================= */
+
+.tab-number {
+    display: inline-grid;
+
+    place-items: center;
+
+    width: 27px;
+    height: 27px;
+
+    border-radius: 50%;
+
+    background: #C86A50;
+
+    color: #F2E6D7;
+
+    font-size: 0.78rem;
+    font-weight: 800;
+
+    flex-shrink: 0;
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease;
+}
+
+/* =========================
+   Hover
+   ========================= */
+
+.nav-link:hover {
+    color: #E7B64A;
+
+    background: rgba(231, 182, 74, 0.08);
+
+    border-color: #E7B64A;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 14px rgba(31, 58, 77, 0.3);
+}
+
+.nav-link:hover .tab-number {
+    background: #E7B64A;
+    color: #1F3A4D;
+}
+
+/* =========================
+   Active Tab
+   ========================= */
+
+.nav-link.active {
+    color: #F2E6D7;
+
+    background: #C86A50;
+
+    border-color: #C86A50;
+
+    box-shadow:
+        0 5px 16px rgba(200, 106, 80, 0.3);
+}
+
+.nav-link.active .tab-number {
+    background: #F2E6D7;
+    color: #C86A50;
+}
+
+/* =========================
+   Active Hover
+   ========================= */
+
+.nav-link.active:hover {
+    background: #D47A60;
+
+    border-color: #D47A60;
+
+    color: #F2E6D7;
+
+    transform: translateY(-2px);
+}
+
+/* =========================
+   Keyboard Accessibility
+   ========================= */
+
+.nav-link:focus-visible {
+    outline: 3px solid rgba(231, 182, 74, 0.45);
+    outline-offset: 3px;
+}
+
+/* =========================
+   Tablet
+   ========================= */
+
+@media (max-width: 900px) {
+    .header {
+        padding: 20px 15px 16px;
+    }
+
+    .header h1 {
+        font-size: 1.7rem;
+        margin-bottom: 17px;
+    }
+
+    .experiment-nav {
+        gap: 8px;
+    }
+
+    .nav-link {
+        padding: 8px 11px;
+        font-size: 0.85rem;
+    }
+}
+
+/* =========================
+   Mobile
+   ========================= */
+
+@media (max-width: 600px) {
+    .header {
+        padding: 18px 12px 14px;
+    }
+
+    .header h1 {
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+
+    .experiment-nav {
+        display: grid;
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap: 8px;
+
+        width: 100%;
+    }
+
+    .nav-link {
+        width: 100%;
+        box-sizing: border-box;
+
+        padding: 9px 8px;
+
+        font-size: 0.8rem;
+    }
+
+    .tab-number {
+        width: 24px;
+        height: 24px;
+
+        font-size: 0.72rem;
+    }
+}
+
+/* =========================
+   Small Mobile
+   ========================= */
+
+@media (max-width: 380px) {
+    .experiment-nav {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-link {
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,65 @@
+.exp9 .router-demo {
+    max-width: 850px;
+    margin: auto;
+
+    background: linear-gradient(145deg,
+            #1F3A4D,
+            #29495B);
+
+    border: 1px solid rgba(242, 230, 215, 0.18);
+    border-left: 4px solid #C86A50;
+
+    border-radius: 14px;
+    padding: 25px;
+
+    box-shadow: 0 8px 20px rgba(31, 58, 77, 0.25);
+}
+
+.exp9 .inner-nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+
+.exp9 .inner-nav a {
+    color: #F2E6D7;
+    text-decoration: none;
+
+    padding: 9px 14px;
+    border-radius: 8px;
+
+    border: 1px solid #6DB7B3;
+
+    transition: all 0.3s ease;
+}
+
+.exp9 .inner-nav a:hover {
+    background: rgba(109, 183, 179, 0.15);
+    border-color: #E7B64A;
+    color: #E7B64A;
+}
+
+.exp9 .inner-nav a.active {
+    background: #C86A50;
+    color: #F2E6D7;
+    border-color: #C86A50;
+}
+
+.exp9 .route-panel {
+    background: #1F3A4D;
+    border: 1px solid rgba(242, 230, 215, 0.12);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.exp9 .route-panel h3 {
+    color: #E7B64A;
+    margin-bottom: 10px;
+}
+
+.exp9 .route-panel p {
+    color: #F2E6D7;
+    line-height: 1.6;
+}

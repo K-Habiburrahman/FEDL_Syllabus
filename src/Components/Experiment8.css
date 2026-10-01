@@ -1,0 +1,15 @@
+.exp8 .timer-card {
+    text-align: center;
+}
+
+.exp8 .timer {
+    font-size: 4rem;
+    color: #E7B64A;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.exp8 .timer-card p {
+    color: #F2E6D7;
+    line-height: 1.6;
+}

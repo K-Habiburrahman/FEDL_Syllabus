@@ -1,0 +1,15 @@
+.exp6 .event-message {
+    color: #E7B64A;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.exp6 .success {
+    color: #6DB7B3;
+    font-weight: 600;
+}
+
+.exp6 .hint {
+    color: #F2E6D7;
+    opacity: 0.8;
+}

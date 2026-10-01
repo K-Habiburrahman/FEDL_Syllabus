@@ -1,0 +1,40 @@
+.exp5 .state-card {
+    text-align: center;
+}
+
+.exp5 .counter {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #E7B64A;
+    margin: 15px;
+}
+
+.exp5 .demo-input {
+    display: block;
+    margin: 10px auto;
+
+    background: #F2E6D7;
+    color: #1F3A4D;
+
+    border: 2px solid #6DB7B3;
+    border-radius: 8px;
+    padding: 10px 14px;
+
+    outline: none;
+}
+
+.exp5 .demo-input:focus {
+    border-color: #C86A50;
+    box-shadow: 0 0 0 3px rgba(200, 106, 80, 0.15);
+}
+
+.exp5 .info-card p {
+    color: #F2E6D7;
+    line-height: 1.6;
+}
+
+.exp5 .info-card p {
+    color: #c8664d;
+    font-size: 20px;
+    font-weight: 600;
+}

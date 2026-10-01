@@ -1,0 +1,59 @@
+.exp10 .api-list article {
+    display: flex;
+    gap: 15px;
+
+    background: linear-gradient(145deg,
+            #1F3A4D,
+            #29495B);
+
+    border: 1px solid rgba(242, 230, 215, 0.18);
+    border-left: 4px solid #C86A50;
+
+    border-radius: 9px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: left;
+
+    box-shadow: 0 6px 16px rgba(31, 58, 77, 0.2);
+
+    transition: all 0.3s ease;
+}
+
+.exp10 .api-list article:hover {
+    transform: translateX(4px);
+    border-left-color: #E7B64A;
+    box-shadow: 0 8px 20px rgba(31, 58, 77, 0.3);
+}
+
+.exp10 .api-list article>span {
+    min-width: 35px;
+    height: 35px;
+
+    display: grid;
+    place-items: center;
+
+    border-radius: 50%;
+
+    background: #C86A50;
+    color: #F2E6D7;
+
+    font-weight: 700;
+}
+
+.exp10 .api-list h3 {
+    color: #E7B64A;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+
+.exp10 .api-list p {
+    color: #F2E6D7;
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+.exp10 .error {
+    color: #C86A50;
+    font-weight: 600;
+}

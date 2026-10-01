@@ -1,0 +1,57 @@
+.exp3 .component-box {
+    padding: 20px;
+    margin: 12px 0;
+
+    /* Linen + Aegean Night */
+    background: linear-gradient(135deg,
+            #1F3A4D,
+            #29495B);
+
+    color: #F2E6D7;
+
+    /* Terracotta accent */
+    border-left: 4px solid #C86A50;
+    border: 1px solid rgba(242, 230, 215, 0.15);
+    border-left: 4px solid #C86A50;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 8px 20px rgba(31, 58, 77, 0.25);
+
+    transition: all 0.3s ease;
+}
+
+.exp3 .component-box:hover {
+    transform: translateY(-3px);
+
+    border-left-color: #E7B64A;
+
+    box-shadow:
+        0 12px 28px rgba(31, 58, 77, 0.35);
+}
+
+.exp3 .component-box h3 {
+    margin-top: 0;
+
+    /* Marigold highlight */
+    color: #E7B64A;
+}
+
+.exp3 .component-box p {
+    color: #F2E6D7;
+    line-height: 1.7;
+}
+
+.exp3 .component-box strong {
+    color: #6DB7B3;
+}
+
+.exp3 .component-box a {
+    color: #C86A50;
+    text-decoration: none;
+}
+
+.exp3 .component-box a:hover {
+    color: #E7B64A;
+}
