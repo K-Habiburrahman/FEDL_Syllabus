@@ -1,0 +1,220 @@
+[
+  {
+    "id": 1,
+    "name": "Muhammad ibn Musa al-Khwarizmi",
+    "fullName": "Abu Abdullah Muhammad ibn Musa al-Khwarizmi",
+    "place": "Khwarazm and Baghdad",
+    "birth": "c. 780",
+    "death": "c. 850",
+    "field": "Mathematics and Astronomy",
+    "invention": "Algebra and Algorithms",
+    "description": "A pioneering mathematician whose work established systematic methods for solving linear and quadratic equations. The word algorithm is derived from the Latinized form of his name.",
+    "majorWorks": [
+      "Kitab al-Jabr wa al-Muqabala",
+      "Zij al-Sindhind"
+    ],
+    "contributions": [
+      "Algebra",
+      "Algorithms",
+      "Arithmetic",
+      "Astronomy",
+      "Geography"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ibn al-Haytham",
+    "fullName": "Abu Ali al-Hasan ibn al-Hasan ibn al-Haytham",
+    "place": "Basra and Cairo",
+    "birth": "c. 965",
+    "death": "c. 1040",
+    "field": "Optics and Physics",
+    "invention": "Camera Obscura",
+    "description": "A pioneering scientist of optics who investigated light, vision, reflection and refraction through systematic experiments. His work became an important foundation for later optical science.",
+    "majorWorks": [
+      "Kitab al-Manazir"
+    ],
+    "contributions": [
+      "Optics",
+      "Experimental science",
+      "Vision",
+      "Light",
+      "Mathematics"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Abu Ali al-Husayn ibn Sina",
+    "fullName": "Abu Ali al-Husayn ibn Abdullah ibn Sina",
+    "place": "Bukhara and Persia",
+    "birth": "980",
+    "death": "1037",
+    "field": "Medicine and Philosophy",
+    "invention": "The Canon of Medicine",
+    "description": "One of the most influential physicians and polymaths of the medieval Islamic world. His Canon of Medicine organized medical knowledge and was studied for centuries.",
+    "majorWorks": [
+      "The Canon of Medicine",
+      "The Book of Healing"
+    ],
+    "contributions": [
+      "Medicine",
+      "Pharmacology",
+      "Philosophy",
+      "Logic",
+      "Natural sciences"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Abu Rayhan Muhammad ibn Ahmad al-Biruni",
+    "fullName": "Abu Rayhan Muhammad ibn Ahmad al-Biruni",
+    "place": "Khwarazm and Ghazni",
+    "birth": "973",
+    "death": "c. 1050",
+    "field": "Astronomy, Mathematics and Geography",
+    "invention": "Advanced Methods of Geodesy and Astronomical Measurement",
+    "description": "A polymath who made major contributions to astronomy, mathematics, geography and the study of the Earth. He developed sophisticated methods for measuring distances and geographical coordinates.",
+    "majorWorks": [
+      "Kitab al-Hind",
+      "Al-Qanun al-Masudi"
+    ],
+    "contributions": [
+      "Astronomy",
+      "Geodesy",
+      "Mathematics",
+      "Geography",
+      "History"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Muhammad ibn Zakariya al-Razi",
+    "fullName": "Abu Bakr Muhammad ibn Zakariya al-Razi",
+    "place": "Rayy and Baghdad",
+    "birth": "c. 865",
+    "death": "c. 925",
+    "field": "Medicine and Chemistry",
+    "invention": "Systematic Medical Classification and Clinical Methods",
+    "description": "A renowned physician and alchemist who emphasized observation and clinical experience. He wrote extensively about diseases, treatments and chemical substances.",
+    "majorWorks": [
+      "Kitab al-Hawi",
+      "Kitab al-Mansuri"
+    ],
+    "contributions": [
+      "Medicine",
+      "Clinical practice",
+      "Chemistry",
+      "Pharmacology",
+      "Medical diagnosis"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Abu al-Qasim al-Zahrawi",
+    "fullName": "Abu al-Qasim Khalaf ibn al-Abbas al-Zahrawi",
+    "place": "Cordoba, Al-Andalus",
+    "birth": "c. 936",
+    "death": "1013",
+    "field": "Medicine and Surgery",
+    "invention": "Advanced Surgical Instruments and Techniques",
+    "description": "A pioneering surgeon whose encyclopedia of medicine documented numerous surgical procedures and instruments. His work significantly influenced the development of surgery.",
+    "majorWorks": [
+      "Al-Tasrif"
+    ],
+    "contributions": [
+      "Surgery",
+      "Surgical instruments",
+      "Medicine",
+      "Dentistry",
+      "Medical education"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Jabir ibn Hayyan",
+    "fullName": "Abu Musa Jabir ibn Hayyan",
+    "place": "Kufa",
+    "birth": "c. 721",
+    "death": "c. 815",
+    "field": "Chemistry and Alchemy",
+    "invention": "Laboratory Techniques and Chemical Processes",
+    "description": "A major early figure associated with Arabic alchemical and chemical literature. Works attributed to him describe laboratory apparatus, purification and processes involving chemical substances.",
+    "majorWorks": [
+      "Kitab al-Kimya",
+      "Kitab al-Sab'in"
+    ],
+    "contributions": [
+      "Chemistry",
+      "Distillation",
+      "Crystallization",
+      "Evaporation",
+      "Laboratory methods"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ibn al-Nafis",
+    "fullName": "Ala al-Din Ali ibn Abi al-Hazm al-Qarshi al-Dimashqi",
+    "place": "Damascus and Cairo",
+    "birth": "1213",
+    "death": "1288",
+    "field": "Medicine and Anatomy",
+    "invention": "Description of Pulmonary Circulation",
+    "description": "A distinguished physician who provided an important description of pulmonary circulation, explaining the movement of blood between the heart and lungs.",
+    "majorWorks": [
+      "Commentary on the Anatomy of the Canon of Avicenna",
+      "Sharh al-Adwiya al-Murakkaba"
+    ],
+    "contributions": [
+      "Medicine",
+      "Anatomy",
+      "Physiology",
+      "Cardiology",
+      "Pulmonary circulation"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Abu Nasr Muhammad al-Farabi",
+    "fullName": "Abu Nasr Muhammad ibn Muhammad al-Farabi",
+    "place": "Farab and Baghdad",
+    "birth": "c. 872",
+    "death": "c. 950",
+    "field": "Philosophy, Logic and Science",
+    "invention": "Systematic Classification of Knowledge",
+    "description": "A major philosopher and polymath who developed influential classifications of knowledge and made important contributions to logic, mathematics, music and philosophy.",
+    "majorWorks": [
+      "Ihsa al-Ulum",
+      "Kitab al-Musiqa al-Kabir"
+    ],
+    "contributions": [
+      "Logic",
+      "Philosophy",
+      "Music theory",
+      "Political philosophy",
+      "Classification of sciences"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Nasir al-Din al-Tusi",
+    "fullName": "Muhammad ibn Muhammad Nasir al-Din al-Tusi",
+    "place": "Tus and Maragha",
+    "birth": "1201",
+    "death": "1274",
+    "field": "Astronomy and Mathematics",
+    "invention": "Tusi Couple",
+    "description": "A distinguished astronomer and mathematician who established the Maragha observatory and developed mathematical models that became important in the history of astronomy.",
+    "majorWorks": [
+      "Zij-i Ilkhani",
+      "Tahrir al-Majisti"
+    ],
+    "contributions": [
+      "Astronomy",
+      "Mathematics",
+      "Trigonometry",
+      "Observational astronomy",
+      "Astronomical models"
+    ]
+  }
+]
